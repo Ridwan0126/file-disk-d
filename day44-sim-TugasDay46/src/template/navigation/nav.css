@@ -1,0 +1,71 @@
+.nav-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    border: 5px solid #34495e;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    /*color-background: #FFFF;*/
+    width: 89%;
+    margin-left: 100px;
+    background-color: #34495e;
+}
+
+.logo {
+    width: 150px;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    margin-right: -40px;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 5px 15px;
+    height: 30px;
+    /*border: 1px solid grey;*/
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    /*height: 100px;*/
+    margin-top: -20px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu-item:hover:not(:last-child) {
+    background-color: grey;
+}
+
+.menu-item.active {
+    background-color: grey;
+    /*height: 20px;*/
+}
+
+.menu-item:last-child {
+    margin-right: 0px;
+}
+
+/* .welcome{
+    margin-left: 1000px;
+} */
+
+
+.welcome{
+    /* position: absolute;
+    top: 30%;
+    left: 70%; */
+    font-size: 16px;
+    color: white;
+    margin-left: 30px;
+}
+
+.nameWelcome{
+    /* position: absolute;
+    top: 30%;
+    left: 70%; */
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
